@@ -1,0 +1,90 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  background-color: #ECFEFF;
+}
+
+.container
+{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+
+.main-container
+{
+  width: 500px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3px; */
+  /* border: 1px solid black; */
+  /* margin: 2px; */
+  /* border-radius: 10px; */
+}
+
+.input
+{
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+}
+
+.ADDtask-css
+{
+  width: fit-content;
+  height: fit-content;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #1E40AF;
+  color: white;
+}
+
+.ClearAll-btn-css
+{
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin-top: 10px;
+  background-color: #B91C1C;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.bag-btn-css
+{
+  width: fit-content;
+  height: fit-content;
+}
+
+.bag-btn-css
+{
+  color: #15803D;
+  margin-left: 6px;
+}
+
+.delete-btn-css
+{
+  color: #B91C1C;
+  margin-left: 6px;
+}
